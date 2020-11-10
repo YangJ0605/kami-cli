@@ -1,0 +1,26 @@
+{
+  "name": "kami-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "kami-cli": "./bin/www"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.5",
+    "inquirer": "^7.3.3",
+    "metalsmith": "^2.3.0",
+    "ncp": "^2.0.0",
+    "ora": "^5.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
